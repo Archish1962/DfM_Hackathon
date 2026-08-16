@@ -32,6 +32,12 @@ To install `uv`, run the following in your terminal:
 
 ---
 
+Clone the repository
+```bash
+git clone https://github.com/Archish1962/DfM_Hackathon.git
+cd DfM_Hackathon
+```
+
 ### 1. Backend Setup (FastAPI + CadQuery)
 Open a terminal in the root directory of the project:
 

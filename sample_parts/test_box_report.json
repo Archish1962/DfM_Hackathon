@@ -1,0 +1,400 @@
+{
+  "part_summary": {
+    "part_name": "test_box",
+    "faces": 6,
+    "edges": 12,
+    "volume": 1000.0,
+    "surface_area": 600.0,
+    "material": "ABS",
+    "units": "mm",
+    "bounding_box": {
+      "xmin": -5.0,
+      "ymin": -5.0,
+      "zmin": 0.0,
+      "xmax": 5.0,
+      "ymax": 5.0,
+      "zmax": 10.0,
+      "xlen": 10.0,
+      "ylen": 10.0,
+      "zlen": 10.0
+    }
+  },
+  "mold_direction": {
+    "vector": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "algorithm": "6-axis-cardinal-score",
+    "confidence": "high",
+    "cardinal_scores": [
+      {
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "undercuts": 1,
+        "zero_draft_faces": 4
+      },
+      {
+        "axis": [
+          -1,
+          0,
+          0
+        ],
+        "undercuts": 1,
+        "zero_draft_faces": 4
+      },
+      {
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "undercuts": 1,
+        "zero_draft_faces": 4
+      },
+      {
+        "axis": [
+          0,
+          -1,
+          0
+        ],
+        "undercuts": 1,
+        "zero_draft_faces": 4
+      },
+      {
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "undercuts": 1,
+        "zero_draft_faces": 4
+      },
+      {
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "undercuts": 1,
+        "zero_draft_faces": 4
+      }
+    ]
+  },
+  "draft_analysis": {
+    "threshold_used": 1.0,
+    "texture_type": "plain",
+    "summary": {
+      "PASS": 1,
+      "LOW_DRAFT": 0,
+      "ZERO_DRAFT": 4,
+      "NEGATIVE_DRAFT": 1
+    },
+    "faces": [
+      {
+        "face_id": 0,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          1.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 1,
+        "angle": -90.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 2,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.0,
+          1.0,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 3,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 4,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.0,
+          -0.0,
+          -1.0
+        ]
+      },
+      {
+        "face_id": 5,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  "undercuts": [],
+  "parting_line": {
+    "loop_points": [
+      [
+        0.0,
+        -5.0,
+        0.0
+      ],
+      [
+        0.0,
+        5.0,
+        0.0
+      ],
+      [
+        0.0,
+        5.0,
+        10.0
+      ],
+      [
+        0.0,
+        -5.0,
+        10.0
+      ],
+      [
+        0.0,
+        -5.0,
+        0.0
+      ]
+    ],
+    "is_closed": true,
+    "point_count": 5,
+    "planarity": "Planar 2D parting line",
+    "elevation_variance": 0.0,
+    "flash_risk": "Low",
+    "summary": "Planar parting line with uniform shut-off and minimal flash risk."
+  },
+  "mold_assembly": {
+    "stock_block_dimensions": {
+      "xlen": 20.0,
+      "ylen": 20.0,
+      "zlen": 20.0,
+      "margin": 5.0
+    },
+    "stock_block_volume": 8000.0,
+    "cavity_volume": 98.175,
+    "core_volume": 3200.0,
+    "side_sliders": {
+      "left_slider_volume": 1850.913,
+      "right_slider_volume": 1850.913,
+      "total_slider_volume": 3701.825
+    },
+    "core_pins": {
+      "count": 0,
+      "note": "Central cavity clearance pin"
+    },
+    "volume_ratios": {
+      "cavity_to_stock_pct": 1.23,
+      "core_to_stock_pct": 40.0
+    }
+  },
+  "wall_thickness": {
+    "nominal_thickness": 10.0,
+    "min_thickness": 10.0,
+    "max_thickness": 10.0,
+    "variation_pct": 0.0,
+    "variation_flagged": false,
+    "thick_sections": [],
+    "thin_sections": [],
+    "heuristic": true,
+    "confidence": "medium",
+    "samples_measured": 6
+  },
+  "gate_locations": [
+    {
+      "face_id": 0,
+      "gate_type": "Pin-point / Direct Sprue Gate",
+      "location": [
+        5.0,
+        -0.0,
+        5.0
+      ],
+      "normal": [
+        1.0,
+        -0.0,
+        -0.0
+      ],
+      "face_area": 100.0,
+      "suitability_score": 91.0,
+      "rationale": "Accessible planar exterior surface (Pin-point / Direct Sprue Gate) with direct mold flow path into nominal wall."
+    },
+    {
+      "face_id": 2,
+      "gate_type": "Edge / Submarine Gate at Parting Line",
+      "location": [
+        0.0,
+        5.0,
+        5.0
+      ],
+      "normal": [
+        0.0,
+        1.0,
+        -0.0
+      ],
+      "face_area": 100.0,
+      "suitability_score": 86.0,
+      "rationale": "Accessible planar exterior surface (Edge / Submarine Gate at Parting Line) with direct mold flow path into nominal wall."
+    },
+    {
+      "face_id": 3,
+      "gate_type": "Edge / Submarine Gate at Parting Line",
+      "location": [
+        -0.0,
+        -5.0,
+        5.0
+      ],
+      "normal": [
+        -0.0,
+        -1.0,
+        0.0
+      ],
+      "face_area": 100.0,
+      "suitability_score": 86.0,
+      "rationale": "Accessible planar exterior surface (Edge / Submarine Gate at Parting Line) with direct mold flow path into nominal wall."
+    },
+    {
+      "face_id": 4,
+      "gate_type": "Edge / Submarine Gate at Parting Line",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "normal": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "face_area": 100.0,
+      "suitability_score": 86.0,
+      "rationale": "Accessible planar exterior surface (Edge / Submarine Gate at Parting Line) with direct mold flow path into nominal wall."
+    },
+    {
+      "face_id": 5,
+      "gate_type": "Edge / Submarine Gate at Parting Line",
+      "location": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "face_area": 100.0,
+      "suitability_score": 86.0,
+      "rationale": "Accessible planar exterior surface (Edge / Submarine Gate at Parting Line) with direct mold flow path into nominal wall."
+    }
+  ],
+  "rib_boss_geometry": {
+    "features_detected": false,
+    "bosses": [],
+    "ribs": [],
+    "rules_summary": "No distinct cylindrical boss or isolated rib features identified on this geometry."
+  },
+  "radii_checks": {
+    "min_measured_radius": 0.0,
+    "fillet_count": 0,
+    "sharp_edge_transitions": 12,
+    "recommended_min_radius": 5.0,
+    "stress_concentration_risk": "Moderate",
+    "guideline": "Internal radii should be >= 5.0 mm (0.5x nominal wall) to mitigate notch stress and resin flow restriction."
+  },
+  "ejector_pins": [
+    {
+      "face_id": 1,
+      "location": [
+        -5.0,
+        0.0,
+        5.0
+      ],
+      "recommended_pin_diameter": 5.0,
+      "surface_area": 100.0,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d85.0mm standard ejector pin."
+    },
+    {
+      "face_id": 2,
+      "location": [
+        0.0,
+        5.0,
+        5.0
+      ],
+      "recommended_pin_diameter": 5.0,
+      "surface_area": 100.0,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d85.0mm standard ejector pin."
+    },
+    {
+      "face_id": 3,
+      "location": [
+        -0.0,
+        -5.0,
+        5.0
+      ],
+      "recommended_pin_diameter": 5.0,
+      "surface_area": 100.0,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d85.0mm standard ejector pin."
+    },
+    {
+      "face_id": 4,
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "recommended_pin_diameter": 5.0,
+      "surface_area": 100.0,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d85.0mm standard ejector pin."
+    }
+  ],
+  "known_gaps": [
+    {
+      "item": "Volumetric Warpage & Material Shrinkage PVT Compensation",
+      "reason": "Uniform nominal geometry analyzed without non-isotropic polymer PVT shrinkage curves for material 'ABS'. Requires nonlinear finite-element injection molding warpage solver."
+    },
+    {
+      "item": "Cooling Circuit Conformal Optimization & Cycle Time Thermal Analysis",
+      "reason": "MHD/thermal transient CFD cooling simulation kernel is not integrated; cooling line optimization requires 3D transient heat flux modeling."
+    },
+    {
+      "item": "Weld Line Formation & Air Trap Location Prediction",
+      "reason": "Requires dynamic multi-phase cavity filling flow front simulation (Moldflow/OpenFOAM), uncomputable from static BRep topology alone."
+    },
+    {
+      "item": "Freeform Internal Rib Segmentation",
+      "reason": "Parametric CAD feature tree unavailable in STEP neutral format; ribs without distinct planar-pair boundary representations could not be isolated."
+    }
+  ]
+}

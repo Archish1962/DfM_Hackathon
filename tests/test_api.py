@@ -41,3 +41,9 @@ def test_analyze_flow():
     assert mesh_resp.status_code == 200
     assert len(mesh_resp.content) > 0
     assert mesh_resp.headers["content-type"] == "model/gltf-binary"
+
+    # Check PDF report download
+    pdf_resp = client.get(f"/analyze/{job_id}/report.pdf")
+    assert pdf_resp.status_code == 200
+    assert len(pdf_resp.content) > 1000
+    assert pdf_resp.headers["content-type"] == "application/pdf"

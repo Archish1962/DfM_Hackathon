@@ -94,6 +94,11 @@ def load_step_file(filepath: str) -> Tuple[cq.Workplane, CADMetrics]:
     solids = val.Solids()
     if not solids:
         raise GeometryError("STEP file does not contain solid geometry.")
+    if len(solids) > 1:
+        raise GeometryError(
+            f"Multi-body STEP file detected (found {len(solids)} bodies). "
+            "Injection molding DFM analysis requires a single-body solid part."
+        )
     
     # Auto-align the geometry
     val = _auto_align_solid(val)

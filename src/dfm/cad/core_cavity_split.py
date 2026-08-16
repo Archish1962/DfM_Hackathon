@@ -98,3 +98,39 @@ def execute_four_block_split(
             
     return blocks
 
+
+def split_core_cavity(
+    part: cq.Workplane,
+    pull_axis: Tuple[float, float, float] = (0.0, 0.0, 1.0),
+    parting_center: Optional[Tuple[float, float, float] | float] = None
+) -> Tuple[cq.Workplane, cq.Workplane]:
+    """
+    Backward-compatible 2-block split helper returning (core, cavity).
+    """
+    val = part.val()
+    if val is None:
+        raise MoldSplitError("Part has no valid solid geometry.")
+    
+    bb = val.BoundingBox()
+    margin = max(bb.xlen, bb.ylen, bb.zlen) * 0.5
+    xmin, xmax = bb.xmin - margin, bb.xmax + margin
+    ymin, ymax = bb.ymin - margin, bb.ymax + margin
+    zmin, zmax = bb.zmin - margin, bb.zmax + margin
+    
+    if pull_axis[0] != 0:
+        px = parting_center[0] if isinstance(parting_center, (tuple, list)) else (parting_center if parting_center is not None else (bb.xmin + bb.xmax)/2.0)
+        box1 = _make_box(xmin, px, ymin, ymax, zmin, zmax)
+        box2 = _make_box(px, xmax, ymin, ymax, zmin, zmax)
+    elif pull_axis[1] != 0:
+        py = parting_center[1] if isinstance(parting_center, (tuple, list)) else (parting_center if parting_center is not None else (bb.ymin + bb.ymax)/2.0)
+        box1 = _make_box(xmin, xmax, ymin, py, zmin, zmax)
+        box2 = _make_box(xmin, xmax, py, ymax, zmin, zmax)
+    else:
+        pz = parting_center[2] if isinstance(parting_center, (tuple, list)) else (parting_center if parting_center is not None else (bb.zmin + bb.zmax)/2.0)
+        box1 = _make_box(xmin, xmax, ymin, ymax, zmin, pz)
+        box2 = _make_box(xmin, xmax, ymin, ymax, pz, zmax)
+    
+    core_shape = val.intersect(box1.val())
+    cavity_shape = val.intersect(box2.val())
+    return cq.Workplane().add(core_shape), cq.Workplane().add(cavity_shape)
+

@@ -1,0 +1,5282 @@
+{
+  "part_summary": {
+    "part_name": "Part3",
+    "faces": 414,
+    "edges": 957,
+    "volume": 15062.331,
+    "surface_area": 7562.055,
+    "material": "PP",
+    "units": "mm",
+    "bounding_box": {
+      "xmin": -18.0,
+      "ymin": -18.0,
+      "zmin": 0.0,
+      "xmax": 18.0,
+      "ymax": 18.0,
+      "zmax": 40.0,
+      "xlen": 36.0,
+      "ylen": 36.0,
+      "zlen": 40.0
+    }
+  },
+  "mold_direction": {
+    "vector": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "algorithm": "6-axis-cardinal-score",
+    "confidence": "high",
+    "cardinal_scores": [
+      {
+        "axis": [
+          1,
+          0,
+          0
+        ],
+        "undercuts": 187,
+        "zero_draft_faces": 31
+      },
+      {
+        "axis": [
+          -1,
+          0,
+          0
+        ],
+        "undercuts": 187,
+        "zero_draft_faces": 31
+      },
+      {
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "undercuts": 165,
+        "zero_draft_faces": 75
+      },
+      {
+        "axis": [
+          0,
+          -1,
+          0
+        ],
+        "undercuts": 165,
+        "zero_draft_faces": 75
+      },
+      {
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "undercuts": 37,
+        "zero_draft_faces": 94
+      },
+      {
+        "axis": [
+          0,
+          0,
+          -1
+        ],
+        "undercuts": 274,
+        "zero_draft_faces": 94
+      }
+    ]
+  },
+  "draft_analysis": {
+    "threshold_used": 3.0,
+    "texture_type": "textured",
+    "summary": {
+      "PASS": 274,
+      "LOW_DRAFT": 0,
+      "ZERO_DRAFT": 103,
+      "NEGATIVE_DRAFT": 37
+    },
+    "faces": [
+      {
+        "face_id": 0,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 1,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 2,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          1.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 3,
+        "angle": -90.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.0,
+          -0.0,
+          -1.0
+        ]
+      },
+      {
+        "face_id": 4,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          1.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 5,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 6,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          1.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 7,
+        "angle": -90.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.0,
+          -0.0,
+          -1.0
+        ]
+      },
+      {
+        "face_id": 8,
+        "angle": 4.215,
+        "status": "PASS",
+        "normal": [
+          0.997,
+          -0.0,
+          0.074
+        ]
+      },
+      {
+        "face_id": 9,
+        "angle": -5.067,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.996,
+          0.0,
+          -0.088
+        ]
+      },
+      {
+        "face_id": 10,
+        "angle": 5.619,
+        "status": "PASS",
+        "normal": [
+          0.995,
+          -0.0,
+          0.098
+        ]
+      },
+      {
+        "face_id": 11,
+        "angle": -5.619,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.995,
+          -0.0,
+          -0.098
+        ]
+      },
+      {
+        "face_id": 12,
+        "angle": -5.619,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.995,
+          -0.0,
+          -0.098
+        ]
+      },
+      {
+        "face_id": 13,
+        "angle": 5.619,
+        "status": "PASS",
+        "normal": [
+          0.995,
+          -0.0,
+          0.098
+        ]
+      },
+      {
+        "face_id": 14,
+        "angle": -5.067,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.996,
+          0.0,
+          -0.088
+        ]
+      },
+      {
+        "face_id": 15,
+        "angle": 5.067,
+        "status": "PASS",
+        "normal": [
+          -0.996,
+          0.0,
+          0.088
+        ]
+      },
+      {
+        "face_id": 16,
+        "angle": 5.067,
+        "status": "PASS",
+        "normal": [
+          -0.996,
+          0.0,
+          0.088
+        ]
+      },
+      {
+        "face_id": 17,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 18,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 19,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 20,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 21,
+        "angle": -90.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.0,
+          -0.0,
+          -1.0
+        ]
+      },
+      {
+        "face_id": 22,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 23,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 24,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 25,
+        "angle": -90.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.0,
+          -0.0,
+          -1.0
+        ]
+      },
+      {
+        "face_id": 26,
+        "angle": 4.215,
+        "status": "PASS",
+        "normal": [
+          -0.997,
+          0.0,
+          0.074
+        ]
+      },
+      {
+        "face_id": 27,
+        "angle": -5.067,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.996,
+          -0.0,
+          -0.088
+        ]
+      },
+      {
+        "face_id": 28,
+        "angle": 5.619,
+        "status": "PASS",
+        "normal": [
+          -0.995,
+          0.0,
+          0.098
+        ]
+      },
+      {
+        "face_id": 29,
+        "angle": -5.619,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.995,
+          0.0,
+          -0.098
+        ]
+      },
+      {
+        "face_id": 30,
+        "angle": -5.619,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.995,
+          0.0,
+          -0.098
+        ]
+      },
+      {
+        "face_id": 31,
+        "angle": 5.619,
+        "status": "PASS",
+        "normal": [
+          -0.995,
+          0.0,
+          0.098
+        ]
+      },
+      {
+        "face_id": 32,
+        "angle": -5.067,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.996,
+          -0.0,
+          -0.088
+        ]
+      },
+      {
+        "face_id": 33,
+        "angle": 5.067,
+        "status": "PASS",
+        "normal": [
+          0.996,
+          -0.0,
+          0.088
+        ]
+      },
+      {
+        "face_id": 34,
+        "angle": 5.067,
+        "status": "PASS",
+        "normal": [
+          0.996,
+          -0.0,
+          0.088
+        ]
+      },
+      {
+        "face_id": 35,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 36,
+        "angle": -90.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.0,
+          -0.0,
+          -1.0
+        ]
+      },
+      {
+        "face_id": 37,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 38,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 39,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 40,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 41,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.766,
+          0.643,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 42,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.643,
+          -0.766,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 43,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.766,
+          -0.643,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 44,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 45,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.342,
+          0.94,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 46,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.94,
+          -0.342,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 47,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.342,
+          -0.94,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 48,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 49,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.94,
+          -0.342,
+          0.0
+        ]
+      },
+      {
+        "face_id": 50,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.342,
+          -0.94,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 51,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.94,
+          0.342,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 52,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 53,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.985,
+          0.174,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 54,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.174,
+          -0.985,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 55,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.985,
+          -0.174,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 56,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 57,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.766,
+          -0.643,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 58,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.643,
+          0.766,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 59,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.766,
+          0.643,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 60,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 61,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.342,
+          -0.94,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 62,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.94,
+          0.342,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 63,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.342,
+          0.94,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 64,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 65,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.174,
+          -0.985,
+          0.0
+        ]
+      },
+      {
+        "face_id": 66,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.985,
+          -0.174,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 67,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.174,
+          0.985,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 68,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 69,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.643,
+          -0.766,
+          0.0
+        ]
+      },
+      {
+        "face_id": 70,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.766,
+          -0.643,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 71,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.643,
+          0.766,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 72,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 73,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.94,
+          0.342,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 74,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.342,
+          0.94,
+          0.0
+        ]
+      },
+      {
+        "face_id": 75,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.94,
+          -0.342,
+          0.0
+        ]
+      },
+      {
+        "face_id": 76,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 77,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.985,
+          -0.174,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 78,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.174,
+          0.985,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 79,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.985,
+          0.174,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 80,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 81,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.643,
+          0.766,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 82,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.766,
+          0.643,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 83,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.643,
+          -0.766,
+          0.0
+        ]
+      },
+      {
+        "face_id": 84,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 85,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.174,
+          0.985,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 86,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.985,
+          0.174,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 87,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.174,
+          -0.985,
+          0.0
+        ]
+      },
+      {
+        "face_id": 88,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          -0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 89,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.906,
+          0.423,
+          0.0
+        ]
+      },
+      {
+        "face_id": 90,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.087,
+          -0.996,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 91,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.819,
+          0.574,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 92,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.574,
+          0.819,
+          0.0
+        ]
+      },
+      {
+        "face_id": 93,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.574,
+          -0.819,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 94,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.423,
+          0.906,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 95,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.819,
+          0.574,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 96,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.996,
+          -0.087,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 97,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.819,
+          -0.574,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 98,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.996,
+          0.087,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 99,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.574,
+          0.819,
+          0.0
+        ]
+      },
+      {
+        "face_id": 100,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.996,
+          0.087,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 101,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.819,
+          -0.574,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 102,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.423,
+          -0.906,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 103,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.906,
+          0.423,
+          0.0
+        ]
+      },
+      {
+        "face_id": 104,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.087,
+          -0.996,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 105,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.087,
+          0.996,
+          0.0
+        ]
+      },
+      {
+        "face_id": 106,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.423,
+          0.906,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 107,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.423,
+          -0.906,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 108,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.906,
+          -0.423,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 109,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.087,
+          0.996,
+          0.0
+        ]
+      },
+      {
+        "face_id": 110,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.906,
+          -0.423,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 111,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.996,
+          -0.087,
+          0.0
+        ]
+      },
+      {
+        "face_id": 112,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.574,
+          -0.819,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 113,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.838,
+          0.508,
+          0.2
+        ]
+      },
+      {
+        "face_id": 114,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.98,
+          -0.021,
+          0.2
+        ]
+      },
+      {
+        "face_id": 115,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.98,
+          0.021,
+          0.2
+        ]
+      },
+      {
+        "face_id": 116,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.471,
+          -0.859,
+          0.2
+        ]
+      },
+      {
+        "face_id": 117,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.149,
+          -0.968,
+          0.2
+        ]
+      },
+      {
+        "face_id": 118,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.021,
+          -0.98,
+          0.2
+        ]
+      },
+      {
+        "face_id": 119,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.355,
+          0.913,
+          0.2
+        ]
+      },
+      {
+        "face_id": 120,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.913,
+          0.355,
+          0.2
+        ]
+      },
+      {
+        "face_id": 121,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.764,
+          0.613,
+          0.2
+        ]
+      },
+      {
+        "face_id": 122,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.838,
+          -0.508,
+          0.2
+        ]
+      },
+      {
+        "face_id": 123,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.508,
+          0.838,
+          0.2
+        ]
+      },
+      {
+        "face_id": 124,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.355,
+          -0.913,
+          0.2
+        ]
+      },
+      {
+        "face_id": 125,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.613,
+          -0.764,
+          0.2
+        ]
+      },
+      {
+        "face_id": 126,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.968,
+          -0.149,
+          0.2
+        ]
+      },
+      {
+        "face_id": 127,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.913,
+          -0.355,
+          0.2
+        ]
+      },
+      {
+        "face_id": 128,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.471,
+          0.859,
+          0.2
+        ]
+      },
+      {
+        "face_id": 129,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.859,
+          -0.471,
+          0.2
+        ]
+      },
+      {
+        "face_id": 130,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.613,
+          0.764,
+          0.2
+        ]
+      },
+      {
+        "face_id": 131,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.149,
+          0.968,
+          0.2
+        ]
+      },
+      {
+        "face_id": 132,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.021,
+          0.98,
+          0.2
+        ]
+      },
+      {
+        "face_id": 133,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.968,
+          0.149,
+          0.2
+        ]
+      },
+      {
+        "face_id": 134,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.764,
+          -0.613,
+          0.2
+        ]
+      },
+      {
+        "face_id": 135,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          -0.859,
+          0.471,
+          0.2
+        ]
+      },
+      {
+        "face_id": 136,
+        "angle": 11.546,
+        "status": "PASS",
+        "normal": [
+          0.508,
+          -0.838,
+          0.2
+        ]
+      },
+      {
+        "face_id": 137,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          -0.424,
+          -0.026,
+          0.905
+        ]
+      },
+      {
+        "face_id": 138,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.455,
+          -0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 139,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          -0.334,
+          0.477,
+          0.813
+        ]
+      },
+      {
+        "face_id": 140,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.816,
+          -0.071,
+          0.573
+        ]
+      },
+      {
+        "face_id": 141,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          0.17,
+          0.39,
+          0.905
+        ]
+      },
+      {
+        "face_id": 142,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.542,
+          0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 143,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.664,
+          0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 144,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.071,
+          0.816,
+          0.573
+        ]
+      },
+      {
+        "face_id": 145,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.346,
+          0.743,
+          0.573
+        ]
+      },
+      {
+        "face_id": 146,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.455,
+          0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 147,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.242,
+          0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 148,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          -0.048,
+          0.423,
+          0.905
+        ]
+      },
+      {
+        "face_id": 149,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.743,
+          0.346,
+          0.573
+        ]
+      },
+      {
+        "face_id": 150,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          -0.528,
+          0.246,
+          0.813
+        ]
+      },
+      {
+        "face_id": 151,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.664,
+          -0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 152,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          -0.355,
+          -0.235,
+          0.905
+        ]
+      },
+      {
+        "face_id": 153,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          -0.381,
+          0.19,
+          0.905
+        ]
+      },
+      {
+        "face_id": 154,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.123,
+          -0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 155,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          -0.051,
+          0.58,
+          0.813
+        ]
+      },
+      {
+        "face_id": 156,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.671,
+          -0.47,
+          0.573
+        ]
+      },
+      {
+        "face_id": 157,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          0.342,
+          0.253,
+          0.905
+        ]
+      },
+      {
+        "face_id": 158,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.696,
+          0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 159,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.696,
+          -0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 160,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.47,
+          0.671,
+          0.573
+        ]
+      },
+      {
+        "face_id": 161,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.671,
+          0.47,
+          0.573
+        ]
+      },
+      {
+        "face_id": 162,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.123,
+          0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 163,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.123,
+          0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 164,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          -0.253,
+          0.342,
+          0.905
+        ]
+      },
+      {
+        "face_id": 165,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.47,
+          0.671,
+          0.573
+        ]
+      },
+      {
+        "face_id": 166,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          -0.58,
+          -0.051,
+          0.813
+        ]
+      },
+      {
+        "face_id": 167,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.696,
+          0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 168,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          -0.19,
+          -0.381,
+          0.905
+        ]
+      },
+      {
+        "face_id": 169,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          -0.235,
+          0.355,
+          0.905
+        ]
+      },
+      {
+        "face_id": 170,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.242,
+          -0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 171,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          0.246,
+          0.528,
+          0.813
+        ]
+      },
+      {
+        "face_id": 172,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.346,
+          -0.743,
+          0.573
+        ]
+      },
+      {
+        "face_id": 173,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          0.423,
+          0.048,
+          0.905
+        ]
+      },
+      {
+        "face_id": 174,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.664,
+          -0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 175,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.542,
+          -0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 176,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.743,
+          0.346,
+          0.573
+        ]
+      },
+      {
+        "face_id": 177,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.816,
+          0.071,
+          0.573
+        ]
+      },
+      {
+        "face_id": 178,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.242,
+          0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 179,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.455,
+          0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 180,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          -0.39,
+          0.17,
+          0.905
+        ]
+      },
+      {
+        "face_id": 181,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.071,
+          0.816,
+          0.573
+        ]
+      },
+      {
+        "face_id": 182,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          -0.477,
+          -0.334,
+          0.813
+        ]
+      },
+      {
+        "face_id": 183,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.542,
+          0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 184,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          0.026,
+          -0.424,
+          0.905
+        ]
+      },
+      {
+        "face_id": 185,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          -0.026,
+          0.424,
+          0.905
+        ]
+      },
+      {
+        "face_id": 186,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.542,
+          -0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 187,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          0.477,
+          0.334,
+          0.813
+        ]
+      },
+      {
+        "face_id": 188,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.071,
+          -0.816,
+          0.573
+        ]
+      },
+      {
+        "face_id": 189,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          0.39,
+          -0.17,
+          0.905
+        ]
+      },
+      {
+        "face_id": 190,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.455,
+          -0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 191,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.242,
+          -0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 192,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.816,
+          -0.071,
+          0.573
+        ]
+      },
+      {
+        "face_id": 193,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.743,
+          -0.346,
+          0.573
+        ]
+      },
+      {
+        "face_id": 194,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.542,
+          0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 195,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.664,
+          0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 196,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          -0.423,
+          -0.048,
+          0.905
+        ]
+      },
+      {
+        "face_id": 197,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.346,
+          0.743,
+          0.573
+        ]
+      },
+      {
+        "face_id": 198,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          -0.246,
+          -0.528,
+          0.813
+        ]
+      },
+      {
+        "face_id": 199,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.242,
+          0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 200,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          0.235,
+          -0.355,
+          0.905
+        ]
+      },
+      {
+        "face_id": 201,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          0.19,
+          0.381,
+          0.905
+        ]
+      },
+      {
+        "face_id": 202,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.696,
+          -0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 203,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          0.58,
+          0.051,
+          0.813
+        ]
+      },
+      {
+        "face_id": 204,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.47,
+          -0.671,
+          0.573
+        ]
+      },
+      {
+        "face_id": 205,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          0.253,
+          -0.342,
+          0.905
+        ]
+      },
+      {
+        "face_id": 206,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.123,
+          -0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 207,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.123,
+          -0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 208,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.671,
+          -0.47,
+          0.573
+        ]
+      },
+      {
+        "face_id": 209,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.47,
+          -0.671,
+          0.573
+        ]
+      },
+      {
+        "face_id": 210,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.696,
+          0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 211,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.696,
+          -0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 212,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          -0.342,
+          -0.253,
+          0.905
+        ]
+      },
+      {
+        "face_id": 213,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.671,
+          0.47,
+          0.573
+        ]
+      },
+      {
+        "face_id": 214,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          0.051,
+          -0.58,
+          0.813
+        ]
+      },
+      {
+        "face_id": 215,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.123,
+          0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 216,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          0.381,
+          -0.19,
+          0.905
+        ]
+      },
+      {
+        "face_id": 217,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          0.355,
+          0.235,
+          0.905
+        ]
+      },
+      {
+        "face_id": 218,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.664,
+          0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 219,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          0.528,
+          -0.246,
+          0.813
+        ]
+      },
+      {
+        "face_id": 220,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.743,
+          -0.346,
+          0.573
+        ]
+      },
+      {
+        "face_id": 221,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          0.048,
+          -0.423,
+          0.905
+        ]
+      },
+      {
+        "face_id": 222,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.242,
+          -0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 223,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.455,
+          -0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 224,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          -0.346,
+          -0.743,
+          0.573
+        ]
+      },
+      {
+        "face_id": 225,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.071,
+          -0.816,
+          0.573
+        ]
+      },
+      {
+        "face_id": 226,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.664,
+          -0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 227,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.542,
+          -0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 228,
+        "angle": 64.815,
+        "status": "PASS",
+        "normal": [
+          -0.17,
+          -0.39,
+          0.905
+        ]
+      },
+      {
+        "face_id": 229,
+        "angle": 34.988,
+        "status": "PASS",
+        "normal": [
+          0.816,
+          0.071,
+          0.573
+        ]
+      },
+      {
+        "face_id": 230,
+        "angle": 54.38,
+        "status": "PASS",
+        "normal": [
+          0.334,
+          -0.477,
+          0.813
+        ]
+      },
+      {
+        "face_id": 231,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.455,
+          0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 232,
+        "angle": 64.834,
+        "status": "PASS",
+        "normal": [
+          0.424,
+          0.026,
+          0.905
+        ]
+      },
+      {
+        "face_id": 233,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.235,
+          0.753,
+          0.614
+        ]
+      },
+      {
+        "face_id": 234,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.242,
+          0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 235,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.236,
+          0.506,
+          0.83
+        ]
+      },
+      {
+        "face_id": 236,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.664,
+          0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 237,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.506,
+          -0.236,
+          0.83
+        ]
+      },
+      {
+        "face_id": 238,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.242,
+          -0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 239,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.664,
+          -0.426,
+          0.614
+        ]
+      },
+      {
+        "face_id": 240,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.174,
+          0.77,
+          0.614
+        ]
+      },
+      {
+        "face_id": 241,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.542,
+          0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 242,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.049,
+          0.556,
+          0.83
+        ]
+      },
+      {
+        "face_id": 243,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.455,
+          0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 244,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.556,
+          0.049,
+          0.83
+        ]
+      },
+      {
+        "face_id": 245,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.542,
+          -0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 246,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.788,
+          -0.037,
+          0.614
+        ]
+      },
+      {
+        "face_id": 247,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.753,
+          0.235,
+          0.614
+        ]
+      },
+      {
+        "face_id": 248,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.664,
+          -0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 249,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.506,
+          0.236,
+          0.83
+        ]
+      },
+      {
+        "face_id": 250,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.242,
+          0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 251,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.236,
+          0.506,
+          0.83
+        ]
+      },
+      {
+        "face_id": 252,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.664,
+          0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 253,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.426,
+          0.664,
+          0.614
+        ]
+      },
+      {
+        "face_id": 254,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.58,
+          -0.535,
+          0.614
+        ]
+      },
+      {
+        "face_id": 255,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.123,
+          -0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 256,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.457,
+          -0.32,
+          0.83
+        ]
+      },
+      {
+        "face_id": 257,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.696,
+          0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 258,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.32,
+          0.457,
+          0.83
+        ]
+      },
+      {
+        "face_id": 259,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.123,
+          0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 260,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.362,
+          0.701,
+          0.614
+        ]
+      },
+      {
+        "face_id": 261,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.753,
+          -0.235,
+          0.614
+        ]
+      },
+      {
+        "face_id": 262,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.664,
+          0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 263,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.506,
+          -0.236,
+          0.83
+        ]
+      },
+      {
+        "face_id": 264,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.242,
+          -0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 265,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.236,
+          -0.506,
+          0.83
+        ]
+      },
+      {
+        "face_id": 266,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.664,
+          -0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 267,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.426,
+          -0.664,
+          0.614
+        ]
+      },
+      {
+        "face_id": 268,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.535,
+          -0.58,
+          0.614
+        ]
+      },
+      {
+        "face_id": 269,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.696,
+          -0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 270,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.32,
+          -0.457,
+          0.83
+        ]
+      },
+      {
+        "face_id": 271,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.123,
+          -0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 272,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.457,
+          -0.32,
+          0.83
+        ]
+      },
+      {
+        "face_id": 273,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.696,
+          0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 274,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.701,
+          -0.362,
+          0.614
+        ]
+      },
+      {
+        "face_id": 275,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.58,
+          0.535,
+          0.614
+        ]
+      },
+      {
+        "face_id": 276,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.123,
+          0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 277,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.457,
+          0.32,
+          0.83
+        ]
+      },
+      {
+        "face_id": 278,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.696,
+          -0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 279,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.32,
+          -0.457,
+          0.83
+        ]
+      },
+      {
+        "face_id": 280,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.123,
+          -0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 281,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.362,
+          -0.701,
+          0.614
+        ]
+      },
+      {
+        "face_id": 282,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.174,
+          -0.77,
+          0.614
+        ]
+      },
+      {
+        "face_id": 283,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.542,
+          -0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 284,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.049,
+          -0.556,
+          0.83
+        ]
+      },
+      {
+        "face_id": 285,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.455,
+          -0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 286,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.556,
+          -0.049,
+          0.83
+        ]
+      },
+      {
+        "face_id": 287,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.542,
+          0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 288,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.788,
+          0.037,
+          0.614
+        ]
+      },
+      {
+        "face_id": 289,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.235,
+          -0.753,
+          0.614
+        ]
+      },
+      {
+        "face_id": 290,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.242,
+          -0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 291,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.236,
+          -0.506,
+          0.83
+        ]
+      },
+      {
+        "face_id": 292,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.664,
+          -0.242,
+          0.707
+        ]
+      },
+      {
+        "face_id": 293,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.506,
+          0.236,
+          0.83
+        ]
+      },
+      {
+        "face_id": 294,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.242,
+          0.664,
+          0.707
+        ]
+      },
+      {
+        "face_id": 295,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.664,
+          0.426,
+          0.614
+        ]
+      },
+      {
+        "face_id": 296,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.77,
+          -0.174,
+          0.614
+        ]
+      },
+      {
+        "face_id": 297,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.455,
+          -0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 298,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.556,
+          -0.049,
+          0.83
+        ]
+      },
+      {
+        "face_id": 299,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.542,
+          0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 300,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.049,
+          0.556,
+          0.83
+        ]
+      },
+      {
+        "face_id": 301,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.455,
+          0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 302,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.037,
+          0.788,
+          0.614
+        ]
+      },
+      {
+        "face_id": 303,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.535,
+          0.58,
+          0.614
+        ]
+      },
+      {
+        "face_id": 304,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.696,
+          0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 305,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          -0.32,
+          0.457,
+          0.83
+        ]
+      },
+      {
+        "face_id": 306,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.123,
+          0.696,
+          0.707
+        ]
+      },
+      {
+        "face_id": 307,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.457,
+          0.32,
+          0.83
+        ]
+      },
+      {
+        "face_id": 308,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.696,
+          -0.123,
+          0.707
+        ]
+      },
+      {
+        "face_id": 309,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.701,
+          0.362,
+          0.614
+        ]
+      },
+      {
+        "face_id": 310,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          0.77,
+          0.174,
+          0.614
+        ]
+      },
+      {
+        "face_id": 311,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.455,
+          0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 312,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.556,
+          0.049,
+          0.83
+        ]
+      },
+      {
+        "face_id": 313,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.542,
+          -0.455,
+          0.707
+        ]
+      },
+      {
+        "face_id": 314,
+        "angle": 56.067,
+        "status": "PASS",
+        "normal": [
+          0.049,
+          -0.556,
+          0.83
+        ]
+      },
+      {
+        "face_id": 315,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.455,
+          -0.542,
+          0.707
+        ]
+      },
+      {
+        "face_id": 316,
+        "angle": 37.894,
+        "status": "PASS",
+        "normal": [
+          -0.037,
+          -0.788,
+          0.614
+        ]
+      },
+      {
+        "face_id": 317,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 318,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 319,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 320,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 321,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": null
+      },
+      {
+        "face_id": 322,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -1.0,
+          0.0,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 323,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          1.0,
+          -0.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 324,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.0,
+          1.0,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 325,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 326,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.707,
+          0.707
+        ]
+      },
+      {
+        "face_id": 327,
+        "angle": 48.341,
+        "status": "PASS",
+        "normal": [
+          0.665,
+          -0.0,
+          0.747
+        ]
+      },
+      {
+        "face_id": 328,
+        "angle": 35.108,
+        "status": "PASS",
+        "normal": [
+          0.605,
+          0.551,
+          0.575
+        ]
+      },
+      {
+        "face_id": 329,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.747,
+          0.665,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 330,
+        "angle": 29.846,
+        "status": "PASS",
+        "normal": [
+          0.721,
+          0.483,
+          0.498
+        ]
+      },
+      {
+        "face_id": 331,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.707,
+          -0.0,
+          0.707
+        ]
+      },
+      {
+        "face_id": 332,
+        "angle": 35.071,
+        "status": "PASS",
+        "normal": [
+          0.613,
+          0.542,
+          0.575
+        ]
+      },
+      {
+        "face_id": 333,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.758,
+          0.652,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 334,
+        "angle": -35.071,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.613,
+          0.542,
+          -0.575
+        ]
+      },
+      {
+        "face_id": 335,
+        "angle": -45.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.707,
+          -0.0,
+          -0.707
+        ]
+      },
+      {
+        "face_id": 336,
+        "angle": -29.861,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.721,
+          0.483,
+          -0.498
+        ]
+      },
+      {
+        "face_id": 337,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.747,
+          0.665,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 338,
+        "angle": 29.846,
+        "status": "PASS",
+        "normal": [
+          0.721,
+          0.483,
+          0.498
+        ]
+      },
+      {
+        "face_id": 339,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.707,
+          -0.0,
+          0.707
+        ]
+      },
+      {
+        "face_id": 340,
+        "angle": 35.071,
+        "status": "PASS",
+        "normal": [
+          0.613,
+          0.542,
+          0.575
+        ]
+      },
+      {
+        "face_id": 341,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.758,
+          0.652,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 342,
+        "angle": -35.071,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.613,
+          0.542,
+          -0.575
+        ]
+      },
+      {
+        "face_id": 343,
+        "angle": -45.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.707,
+          -0.0,
+          -0.707
+        ]
+      },
+      {
+        "face_id": 344,
+        "angle": -29.854,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.721,
+          0.483,
+          -0.498
+        ]
+      },
+      {
+        "face_id": 345,
+        "angle": 48.341,
+        "status": "PASS",
+        "normal": [
+          -0.665,
+          0.0,
+          0.747
+        ]
+      },
+      {
+        "face_id": 346,
+        "angle": 35.108,
+        "status": "PASS",
+        "normal": [
+          -0.605,
+          0.551,
+          0.575
+        ]
+      },
+      {
+        "face_id": 347,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.747,
+          0.665,
+          0.0
+        ]
+      },
+      {
+        "face_id": 348,
+        "angle": 29.861,
+        "status": "PASS",
+        "normal": [
+          -0.721,
+          0.483,
+          0.498
+        ]
+      },
+      {
+        "face_id": 349,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      },
+      {
+        "face_id": 350,
+        "angle": 35.071,
+        "status": "PASS",
+        "normal": [
+          -0.613,
+          0.542,
+          0.575
+        ]
+      },
+      {
+        "face_id": 351,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.758,
+          0.652,
+          0.0
+        ]
+      },
+      {
+        "face_id": 352,
+        "angle": -35.071,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.613,
+          0.542,
+          -0.575
+        ]
+      },
+      {
+        "face_id": 353,
+        "angle": -45.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.707,
+          0.0,
+          -0.707
+        ]
+      },
+      {
+        "face_id": 354,
+        "angle": -29.846,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.721,
+          0.483,
+          -0.498
+        ]
+      },
+      {
+        "face_id": 355,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.747,
+          0.665,
+          0.0
+        ]
+      },
+      {
+        "face_id": 356,
+        "angle": 29.861,
+        "status": "PASS",
+        "normal": [
+          -0.721,
+          0.483,
+          0.498
+        ]
+      },
+      {
+        "face_id": 357,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      },
+      {
+        "face_id": 358,
+        "angle": 35.071,
+        "status": "PASS",
+        "normal": [
+          -0.613,
+          0.542,
+          0.575
+        ]
+      },
+      {
+        "face_id": 359,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.758,
+          0.652,
+          0.0
+        ]
+      },
+      {
+        "face_id": 360,
+        "angle": -35.071,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.613,
+          0.542,
+          -0.575
+        ]
+      },
+      {
+        "face_id": 361,
+        "angle": -45.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.707,
+          0.0,
+          -0.707
+        ]
+      },
+      {
+        "face_id": 362,
+        "angle": -29.854,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.721,
+          0.483,
+          -0.498
+        ]
+      },
+      {
+        "face_id": 363,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -1.0,
+          -0.0,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 364,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 365,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "face_id": 366,
+        "angle": 90.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "face_id": 367,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          -0.707,
+          0.707
+        ]
+      },
+      {
+        "face_id": 368,
+        "angle": 48.341,
+        "status": "PASS",
+        "normal": [
+          0.665,
+          0.0,
+          0.747
+        ]
+      },
+      {
+        "face_id": 369,
+        "angle": 35.108,
+        "status": "PASS",
+        "normal": [
+          0.605,
+          -0.551,
+          0.575
+        ]
+      },
+      {
+        "face_id": 370,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.747,
+          -0.665,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 371,
+        "angle": 29.861,
+        "status": "PASS",
+        "normal": [
+          0.721,
+          -0.483,
+          0.498
+        ]
+      },
+      {
+        "face_id": 372,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.707,
+          0.0,
+          0.707
+        ]
+      },
+      {
+        "face_id": 373,
+        "angle": 35.071,
+        "status": "PASS",
+        "normal": [
+          0.613,
+          -0.542,
+          0.575
+        ]
+      },
+      {
+        "face_id": 374,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.758,
+          -0.652,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 375,
+        "angle": -35.071,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.613,
+          -0.542,
+          -0.575
+        ]
+      },
+      {
+        "face_id": 376,
+        "angle": -45.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.707,
+          0.0,
+          -0.707
+        ]
+      },
+      {
+        "face_id": 377,
+        "angle": -29.846,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.721,
+          -0.483,
+          -0.498
+        ]
+      },
+      {
+        "face_id": 378,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.747,
+          -0.665,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 379,
+        "angle": 29.861,
+        "status": "PASS",
+        "normal": [
+          0.721,
+          -0.483,
+          0.498
+        ]
+      },
+      {
+        "face_id": 380,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          0.707,
+          0.0,
+          0.707
+        ]
+      },
+      {
+        "face_id": 381,
+        "angle": 35.071,
+        "status": "PASS",
+        "normal": [
+          0.613,
+          -0.542,
+          0.575
+        ]
+      },
+      {
+        "face_id": 382,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.758,
+          -0.652,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 383,
+        "angle": -35.071,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.613,
+          -0.542,
+          -0.575
+        ]
+      },
+      {
+        "face_id": 384,
+        "angle": -45.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.707,
+          0.0,
+          -0.707
+        ]
+      },
+      {
+        "face_id": 385,
+        "angle": -29.854,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          0.721,
+          -0.483,
+          -0.498
+        ]
+      },
+      {
+        "face_id": 386,
+        "angle": 48.341,
+        "status": "PASS",
+        "normal": [
+          -0.665,
+          -0.0,
+          0.747
+        ]
+      },
+      {
+        "face_id": 387,
+        "angle": 35.108,
+        "status": "PASS",
+        "normal": [
+          -0.605,
+          -0.551,
+          0.575
+        ]
+      },
+      {
+        "face_id": 388,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.747,
+          -0.665,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 389,
+        "angle": 29.846,
+        "status": "PASS",
+        "normal": [
+          -0.721,
+          -0.483,
+          0.498
+        ]
+      },
+      {
+        "face_id": 390,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.707,
+          -0.0,
+          0.707
+        ]
+      },
+      {
+        "face_id": 391,
+        "angle": 35.071,
+        "status": "PASS",
+        "normal": [
+          -0.613,
+          -0.542,
+          0.575
+        ]
+      },
+      {
+        "face_id": 392,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.758,
+          -0.652,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 393,
+        "angle": -35.071,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.613,
+          -0.542,
+          -0.575
+        ]
+      },
+      {
+        "face_id": 394,
+        "angle": -45.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.707,
+          -0.0,
+          -0.707
+        ]
+      },
+      {
+        "face_id": 395,
+        "angle": -29.861,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.721,
+          -0.483,
+          -0.498
+        ]
+      },
+      {
+        "face_id": 396,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.747,
+          -0.665,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 397,
+        "angle": 29.846,
+        "status": "PASS",
+        "normal": [
+          -0.721,
+          -0.483,
+          0.498
+        ]
+      },
+      {
+        "face_id": 398,
+        "angle": 45.0,
+        "status": "PASS",
+        "normal": [
+          -0.707,
+          -0.0,
+          0.707
+        ]
+      },
+      {
+        "face_id": 399,
+        "angle": 35.071,
+        "status": "PASS",
+        "normal": [
+          -0.613,
+          -0.542,
+          0.575
+        ]
+      },
+      {
+        "face_id": 400,
+        "angle": -0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.758,
+          -0.652,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 401,
+        "angle": -35.071,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.613,
+          -0.542,
+          -0.575
+        ]
+      },
+      {
+        "face_id": 402,
+        "angle": -45.0,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.707,
+          -0.0,
+          -0.707
+        ]
+      },
+      {
+        "face_id": 403,
+        "angle": -29.854,
+        "status": "NEGATIVE_DRAFT",
+        "normal": [
+          -0.721,
+          -0.483,
+          -0.498
+        ]
+      },
+      {
+        "face_id": 404,
+        "angle": 54.45,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          -0.581,
+          0.814
+        ]
+      },
+      {
+        "face_id": 405,
+        "angle": 54.45,
+        "status": "PASS",
+        "normal": [
+          0.0,
+          0.581,
+          0.814
+        ]
+      },
+      {
+        "face_id": 406,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.71,
+          -0.704,
+          0.0
+        ]
+      },
+      {
+        "face_id": 407,
+        "angle": 52.8,
+        "status": "PASS",
+        "normal": [
+          0.429,
+          -0.426,
+          0.797
+        ]
+      },
+      {
+        "face_id": 408,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.71,
+          -0.704,
+          0.0
+        ]
+      },
+      {
+        "face_id": 409,
+        "angle": 52.8,
+        "status": "PASS",
+        "normal": [
+          -0.426,
+          -0.429,
+          0.797
+        ]
+      },
+      {
+        "face_id": 410,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          0.71,
+          0.704,
+          -0.0
+        ]
+      },
+      {
+        "face_id": 411,
+        "angle": 52.8,
+        "status": "PASS",
+        "normal": [
+          0.426,
+          0.429,
+          0.797
+        ]
+      },
+      {
+        "face_id": 412,
+        "angle": 0.0,
+        "status": "ZERO_DRAFT",
+        "normal": [
+          -0.71,
+          0.704,
+          0.0
+        ]
+      },
+      {
+        "face_id": 413,
+        "angle": 52.8,
+        "status": "PASS",
+        "normal": [
+          -0.426,
+          0.429,
+          0.797
+        ]
+      }
+    ]
+  },
+  "undercuts": [
+    {
+      "face_id": 330,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.83, 0.56, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.831,
+        0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 331,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (1.00, -0.00, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 332,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.75, 0.66, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.749,
+        0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 334,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.75, 0.66, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.749,
+        0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 335,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (1.00, -0.00, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 336,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.83, 0.56, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.831,
+        0.556,
+        0.0
+      ]
+    },
+    {
+      "face_id": 338,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.83, 0.56, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.831,
+        0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 339,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (1.00, -0.00, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 340,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.75, 0.66, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.749,
+        0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 342,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.75, 0.66, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.749,
+        0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 343,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (1.00, -0.00, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 344,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.83, 0.56, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.831,
+        0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 348,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.83, 0.56, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.831,
+        0.556,
+        0.0
+      ]
+    },
+    {
+      "face_id": 349,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-1.00, 0.00, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 350,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.75, 0.66, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.749,
+        0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 352,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.75, 0.66, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.749,
+        0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 353,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-1.00, 0.00, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 354,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.83, 0.56, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.831,
+        0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 356,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.83, 0.56, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.831,
+        0.556,
+        0.0
+      ]
+    },
+    {
+      "face_id": 357,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-1.00, 0.00, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 358,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.75, 0.66, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.749,
+        0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 360,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.75, 0.66, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.749,
+        0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 361,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-1.00, 0.00, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 362,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.83, 0.56, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.831,
+        0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 371,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.83, -0.56, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.831,
+        -0.556,
+        0.0
+      ]
+    },
+    {
+      "face_id": 372,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (1.00, 0.00, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 373,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.75, -0.66, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.749,
+        -0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 375,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.75, -0.66, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.749,
+        -0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 376,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (1.00, 0.00, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 377,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.83, -0.56, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.831,
+        -0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 379,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.83, -0.56, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.831,
+        -0.556,
+        0.0
+      ]
+    },
+    {
+      "face_id": 380,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (1.00, 0.00, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 381,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.75, -0.66, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.749,
+        -0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 383,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.75, -0.66, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.749,
+        -0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 384,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (1.00, 0.00, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 385,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (0.83, -0.56, 0.00) (+X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        0.831,
+        -0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 389,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.83, -0.56, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.831,
+        -0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 390,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-1.00, -0.00, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 391,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.75, -0.66, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.749,
+        -0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 393,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.75, -0.66, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.749,
+        -0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 394,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-1.00, -0.00, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 395,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.83, -0.56, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.831,
+        -0.556,
+        0.0
+      ]
+    },
+    {
+      "face_id": 397,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.83, -0.56, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.831,
+        -0.557,
+        0.0
+      ]
+    },
+    {
+      "face_id": 398,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-1.00, -0.00, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 399,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.75, -0.66, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.749,
+        -0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 401,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.75, -0.66, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.749,
+        -0.663,
+        0.0
+      ]
+    },
+    {
+      "face_id": 402,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-1.00, -0.00, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -1.0,
+        -0.0,
+        0.0
+      ]
+    },
+    {
+      "face_id": 403,
+      "resolution": "side-action",
+      "reason": "External lateral undercut with clear side-draw access along (-0.83, -0.56, 0.00) (-X); requires cam/hydraulic slide.",
+      "pull_direction": [
+        -0.831,
+        -0.557,
+        0.0
+      ]
+    }
+  ],
+  "parting_line": {
+    "loop_points": [
+      [
+        -18.0,
+        -18.0,
+        20.0
+      ],
+      [
+        18.0,
+        -18.0,
+        20.0
+      ],
+      [
+        18.0,
+        18.0,
+        20.0
+      ],
+      [
+        -18.0,
+        18.0,
+        20.0
+      ],
+      [
+        -18.0,
+        -18.0,
+        20.0
+      ]
+    ],
+    "is_closed": true,
+    "point_count": 5,
+    "planarity": "Planar 2D parting line",
+    "elevation_variance": 0.0,
+    "flash_risk": "Low",
+    "summary": "Planar parting line with uniform shut-off and minimal flash risk."
+  },
+  "mold_assembly": {
+    "stock_block_dimensions": {
+      "xlen": 76.0,
+      "ylen": 76.0,
+      "zlen": 80.0,
+      "margin": 20.0
+    },
+    "stock_block_volume": 462080.007,
+    "cavity_volume": 216101.37,
+    "core_volume": 135080.286,
+    "side_sliders": {
+      "left_slider_volume": 47917.703,
+      "right_slider_volume": 47917.713,
+      "total_slider_volume": 95835.416
+    },
+    "core_pins": {
+      "count": 1,
+      "note": "Central cavity clearance pin"
+    },
+    "volume_ratios": {
+      "cavity_to_stock_pct": 46.77,
+      "core_to_stock_pct": 29.23
+    }
+  },
+  "wall_thickness": {
+    "nominal_thickness": 11.45,
+    "min_thickness": 1.32,
+    "max_thickness": 28.74,
+    "variation_pct": 239.5,
+    "variation_flagged": true,
+    "thick_sections": [
+      {
+        "face_id": 3,
+        "measured_thickness": 25.66,
+        "ratio_to_nominal": 2.24,
+        "location": [
+          7.62,
+          -0.0,
+          15.5
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 5,
+        "measured_thickness": 20.01,
+        "ratio_to_nominal": 1.75,
+        "location": [
+          7.62,
+          -0.0,
+          18.5
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 7,
+        "measured_thickness": 20.01,
+        "ratio_to_nominal": 1.75,
+        "location": [
+          7.62,
+          -0.0,
+          21.5
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 21,
+        "measured_thickness": 25.66,
+        "ratio_to_nominal": 2.24,
+        "location": [
+          -7.62,
+          0.0,
+          15.5
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 23,
+        "measured_thickness": 20.01,
+        "ratio_to_nominal": 1.75,
+        "location": [
+          -7.62,
+          0.0,
+          18.5
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 25,
+        "measured_thickness": 20.01,
+        "ratio_to_nominal": 1.75,
+        "location": [
+          -7.62,
+          0.0,
+          21.5
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 42,
+        "measured_thickness": 16.0,
+        "ratio_to_nominal": 1.4,
+        "location": [
+          -5.14,
+          -6.13,
+          36.0
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 46,
+        "measured_thickness": 16.0,
+        "ratio_to_nominal": 1.4,
+        "location": [
+          -7.52,
+          -2.74,
+          36.0
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 50,
+        "measured_thickness": 16.0,
+        "ratio_to_nominal": 1.4,
+        "location": [
+          2.74,
+          -7.52,
+          36.0
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      },
+      {
+        "face_id": 52,
+        "measured_thickness": 14.92,
+        "ratio_to_nominal": 1.3,
+        "location": [
+          3.56,
+          -9.79,
+          32.0
+        ],
+        "risk": "High sink mark & extended cooling cycle risk"
+      }
+    ],
+    "thin_sections": [
+      {
+        "face_id": 6,
+        "measured_thickness": 6.61,
+        "ratio_to_nominal": 0.58,
+        "location": [
+          6.61,
+          -0.0,
+          20.0
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 10,
+        "measured_thickness": 6.87,
+        "ratio_to_nominal": 0.6,
+        "location": [
+          6.74,
+          -0.0,
+          18.68
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 11,
+        "measured_thickness": 6.87,
+        "ratio_to_nominal": 0.6,
+        "location": [
+          6.74,
+          -0.0,
+          21.32
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 14,
+        "measured_thickness": 1.32,
+        "ratio_to_nominal": 0.12,
+        "location": [
+          8.43,
+          -0.0,
+          15.68
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 15,
+        "measured_thickness": 3.82,
+        "ratio_to_nominal": 0.33,
+        "location": [
+          8.43,
+          -0.0,
+          12.32
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 16,
+        "measured_thickness": 1.32,
+        "ratio_to_nominal": 0.12,
+        "location": [
+          8.43,
+          -0.0,
+          18.32
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 24,
+        "measured_thickness": 6.61,
+        "ratio_to_nominal": 0.58,
+        "location": [
+          -6.61,
+          0.0,
+          20.0
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 28,
+        "measured_thickness": 6.87,
+        "ratio_to_nominal": 0.6,
+        "location": [
+          -6.74,
+          0.0,
+          18.68
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 29,
+        "measured_thickness": 6.87,
+        "ratio_to_nominal": 0.6,
+        "location": [
+          -6.74,
+          0.0,
+          21.32
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      },
+      {
+        "face_id": 32,
+        "measured_thickness": 1.32,
+        "ratio_to_nominal": 0.12,
+        "location": [
+          -8.43,
+          0.0,
+          15.68
+        ],
+        "risk": "Short shot / hesitation risk during injection fill"
+      }
+    ],
+    "heuristic": true,
+    "confidence": "medium",
+    "samples_measured": 402
+  },
+  "gate_locations": [
+    {
+      "face_id": 17,
+      "gate_type": "Pin-point / Direct Sprue Gate",
+      "location": [
+        0.0,
+        -0.0,
+        4.5
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "face_area": 413.01,
+      "suitability_score": 94.1,
+      "rationale": "Accessible planar exterior surface (Pin-point / Direct Sprue Gate) with direct mold flow path into nominal wall."
+    },
+    {
+      "face_id": 40,
+      "gate_type": "Pin-point / Direct Sprue Gate",
+      "location": [
+        -0.0,
+        -0.0,
+        40.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "face_area": 97.74,
+      "suitability_score": 91.0,
+      "rationale": "Accessible planar exterior surface (Pin-point / Direct Sprue Gate) with direct mold flow path into nominal wall."
+    },
+    {
+      "face_id": 44,
+      "gate_type": "Pin-point / Direct Sprue Gate",
+      "location": [
+        -6.7,
+        -7.98,
+        32.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "face_area": 6.36,
+      "suitability_score": 90.1,
+      "rationale": "Accessible planar exterior surface (Pin-point / Direct Sprue Gate) with direct mold flow path into nominal wall."
+    },
+    {
+      "face_id": 48,
+      "gate_type": "Pin-point / Direct Sprue Gate",
+      "location": [
+        -9.79,
+        -3.56,
+        32.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "face_area": 6.36,
+      "suitability_score": 90.1,
+      "rationale": "Accessible planar exterior surface (Pin-point / Direct Sprue Gate) with direct mold flow path into nominal wall."
+    },
+    {
+      "face_id": 52,
+      "gate_type": "Pin-point / Direct Sprue Gate",
+      "location": [
+        3.56,
+        -9.79,
+        32.0
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "face_area": 6.36,
+      "suitability_score": 90.1,
+      "rationale": "Accessible planar exterior surface (Pin-point / Direct Sprue Gate) with direct mold flow path into nominal wall."
+    }
+  ],
+  "rib_boss_geometry": {
+    "features_detected": true,
+    "bosses": [
+      {
+        "face_id": 0,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 25.0,
+        "height": 24.83,
+        "height_to_diameter_ratio": 0.99,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      },
+      {
+        "face_id": 2,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 19.0,
+        "height": 18.79,
+        "height_to_diameter_ratio": 0.99,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      },
+      {
+        "face_id": 4,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 25.0,
+        "height": 24.83,
+        "height_to_diameter_ratio": 0.99,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      },
+      {
+        "face_id": 6,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 19.0,
+        "height": 18.79,
+        "height_to_diameter_ratio": 0.99,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      },
+      {
+        "face_id": 18,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 25.0,
+        "height": 24.83,
+        "height_to_diameter_ratio": 0.99,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      },
+      {
+        "face_id": 20,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 19.0,
+        "height": 18.79,
+        "height_to_diameter_ratio": 0.99,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      },
+      {
+        "face_id": 22,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 25.0,
+        "height": 24.83,
+        "height_to_diameter_ratio": 0.99,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      },
+      {
+        "face_id": 24,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 19.0,
+        "height": 18.79,
+        "height_to_diameter_ratio": 0.99,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      },
+      {
+        "face_id": 35,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 12.0,
+        "height": 38.0,
+        "height_to_diameter_ratio": 3.17,
+        "status": "WARNING",
+        "notes": "Boss height (38.0mm) exceeds 3x diameter (3.2x); prone to core pin deflection"
+      },
+      {
+        "face_id": 37,
+        "feature_type": "Cylindrical Boss",
+        "diameter": 36.0,
+        "height": 36.0,
+        "height_to_diameter_ratio": 1.0,
+        "status": "WARNING",
+        "notes": "Boss wall thickness is too thick relative to nominal wall; sink mark risk at boss base"
+      }
+    ],
+    "ribs": [],
+    "rules_summary": "Detected 149 cylindrical boss features. Base thickness target: 40-60% nominal wall (4.6-6.9mm)."
+  },
+  "radii_checks": {
+    "min_measured_radius": 0.25,
+    "fillet_count": 448,
+    "sharp_edge_transitions": 288,
+    "recommended_min_radius": 5.72,
+    "stress_concentration_risk": "Moderate",
+    "guideline": "Internal radii should be >= 5.72 mm (0.5x nominal wall) to mitigate notch stress and resin flow restriction."
+  },
+  "ejector_pins": [
+    {
+      "face_id": 36,
+      "location": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "recommended_pin_diameter": 6.0,
+      "surface_area": 753.98,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d86.0mm standard ejector pin."
+    },
+    {
+      "face_id": 3,
+      "location": [
+        7.62,
+        -0.0,
+        15.5
+      ],
+      "recommended_pin_diameter": 5.0,
+      "surface_area": 63.1,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d85.0mm standard ejector pin."
+    },
+    {
+      "face_id": 7,
+      "location": [
+        7.62,
+        -0.0,
+        21.5
+      ],
+      "recommended_pin_diameter": 5.0,
+      "surface_area": 63.1,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d85.0mm standard ejector pin."
+    },
+    {
+      "face_id": 21,
+      "location": [
+        -7.62,
+        0.0,
+        15.5
+      ],
+      "recommended_pin_diameter": 5.0,
+      "surface_area": 63.1,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d85.0mm standard ejector pin."
+    },
+    {
+      "face_id": 25,
+      "location": [
+        -7.62,
+        0.0,
+        21.5
+      ],
+      "recommended_pin_diameter": 5.0,
+      "surface_area": 63.1,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d85.0mm standard ejector pin."
+    },
+    {
+      "face_id": 322,
+      "location": [
+        -1.0,
+        13.29,
+        14.42
+      ],
+      "recommended_pin_diameter": 3.0,
+      "surface_area": 48.32,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d83.0mm standard ejector pin."
+    },
+    {
+      "face_id": 323,
+      "location": [
+        1.0,
+        13.29,
+        14.42
+      ],
+      "recommended_pin_diameter": 3.0,
+      "surface_area": 48.32,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d83.0mm standard ejector pin."
+    },
+    {
+      "face_id": 363,
+      "location": [
+        -1.0,
+        -13.29,
+        14.42
+      ],
+      "recommended_pin_diameter": 3.0,
+      "surface_area": 48.32,
+      "demolding_suitability": "High",
+      "notes": "Stable planar core-side face suitable for \u00d83.0mm standard ejector pin."
+    }
+  ],
+  "known_gaps": [
+    {
+      "item": "Volumetric Warpage & Material Shrinkage PVT Compensation",
+      "reason": "Uniform nominal geometry analyzed without non-isotropic polymer PVT shrinkage curves for material 'PP'. Requires nonlinear finite-element injection molding warpage solver."
+    },
+    {
+      "item": "Cooling Circuit Conformal Optimization & Cycle Time Thermal Analysis",
+      "reason": "MHD/thermal transient CFD cooling simulation kernel is not integrated; cooling line optimization requires 3D transient heat flux modeling."
+    },
+    {
+      "item": "Weld Line Formation & Air Trap Location Prediction",
+      "reason": "Requires dynamic multi-phase cavity filling flow front simulation (Moldflow/OpenFOAM), uncomputable from static BRep topology alone."
+    }
+  ]
+}

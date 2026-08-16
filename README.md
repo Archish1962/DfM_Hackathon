@@ -18,20 +18,29 @@ The software utilizes a **CadQuery** backend to perform robust CAD kernel operat
 
 ---
 
-## 🚀 How to Run Locally
+## 🚀 Installation & Setup
 
 ### Prerequisites
-- Python 3.10+ and [uv](https://github.com/astral-sh/uv) installed
-- Node.js 18+ and `npm` installed
+Ensure you have the following installed on your system:
+- **Python 3.10+**
+- **Node.js 18+**
+- **uv** (Extremely fast Python package manager written in Rust)
 
-### 1. Start the Backend (FastAPI + CadQuery)
+To install `uv`, run the following in your terminal:
+- **macOS / Linux**: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- **Windows (PowerShell)**: `irm https://astral.sh/uv/install.ps1 | iex`
+
+---
+
+### 1. Backend Setup (FastAPI + CadQuery)
 Open a terminal in the root directory of the project:
 
 ```bash
-# Install dependencies using uv
+# 1. Install all python dependencies in an isolated virtual environment
 uv sync
 
-# Set the python path to include the src directory and start the server
+# 2. Set the python path and start the backend server
+
 # On Windows (PowerShell):
 $env:PYTHONPATH="src"
 uv run uvicorn dfm.api.main:app --port 8000 --reload
@@ -40,18 +49,20 @@ uv run uvicorn dfm.api.main:app --port 8000 --reload
 export PYTHONPATH="src"
 uv run uvicorn dfm.api.main:app --port 8000 --reload
 ```
-The backend API will be available at `http://localhost:8000`.
+The backend API and analysis engine will be available at `http://localhost:8000`.
 
-### 2. Start the Frontend (React + Vite)
+---
+
+### 2. Frontend Setup (React + Vite)
 Open a new terminal and navigate to the `frontend` directory:
 
 ```bash
 cd frontend
 
-# Install dependencies
+# 1. Install node dependencies
 npm install
 
-# Start the Vite development server
+# 2. Start the Vite development server
 npm run dev
 ```
 The interactive web app will be available at `http://localhost:5173`.

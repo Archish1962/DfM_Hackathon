@@ -16,9 +16,8 @@ function App() {
 
   const fileInputRef = useRef(null);
 
-  // Build the mesh URL dynamically from viewMode
   const meshUrl = (jobId && status === "completed" && viewMode !== "mold")
-    ? `${API_BASE}/analyze/${jobId}/mesh?mode=${viewMode}`
+    ? `${API_BASE}/analyze/${jobId}/mesh?mode=${viewMode === 'parting' ? 'standard' : viewMode}`
     : null;
 
   const handleFileChange = (e) => {
@@ -176,7 +175,7 @@ function App() {
           viewMode === "mold" ? (
             <ExplodedViewer jobId={jobId} key="mold" />
           ) : (
-            <Viewer url={meshUrl} key={viewMode} />
+            <Viewer url={meshUrl} partingLine={findings?.parting_line} viewMode={viewMode} key={viewMode} />
           )
         ) : (
           <div style={{display:'flex', height:'100%', alignItems:'center', justifyContent:'center', color:'var(--text-secondary)'}}>
@@ -209,6 +208,12 @@ function App() {
               onClick={() => setViewMode('mold')}
             >
               Mold Exploded View
+            </button>
+            <button
+              className={`control-btn ${viewMode === 'parting' ? 'active' : ''}`}
+              onClick={() => setViewMode('parting')}
+            >
+              Parting Lines
             </button>
           </div>
         )}

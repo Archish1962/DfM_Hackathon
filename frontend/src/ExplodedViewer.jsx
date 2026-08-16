@@ -106,8 +106,8 @@ export default function ExplodedViewer({ jobId }) {
       {/* Explode Slider UI */}
       <div style={{
         position: 'absolute',
-        bottom: '20px',
-        left: '20px',
+        top: '24px',
+        right: '24px',
         background: 'rgba(15, 23, 42, 0.8)',
         padding: '16px',
         borderRadius: '8px',

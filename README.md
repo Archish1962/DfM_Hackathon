@@ -18,7 +18,7 @@ The software utilizes a **CadQuery** backend to perform robust CAD kernel operat
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 Ensure you have the following installed on your system:

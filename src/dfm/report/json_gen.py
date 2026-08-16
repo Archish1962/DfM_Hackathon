@@ -111,16 +111,29 @@ def build_dfm_report_json(
     }
 
     # 5. Parting Line
-    loop_pts = [[round(float(p[0]), 3), round(float(p[1]), 3), round(float(p[2]), 3)] for p in parting_line_loop]
-    parting_line = {
-        "loop_points": loop_pts,
-        "is_closed": parting_quality.get("is_closed", True),
-        "point_count": len(loop_pts),
-        "planarity": parting_quality.get("planarity", "Planar 2D parting line"),
-        "elevation_variance": parting_quality.get("elevation_variance", 0.0),
-        "flash_risk": parting_quality.get("flash_risk", "Low"),
-        "summary": parting_quality.get("summary", "")
-    }
+    if isinstance(parting_line_loop, dict):
+        parting_line = {
+            "loop_points": [],
+            "planes": parting_line_loop.get("planes", []),
+            "bbox": parting_line_loop.get("bbox", {}),
+            "is_closed": parting_quality.get("is_closed", True),
+            "point_count": len(parting_line_loop.get("planes", [])),
+            "planarity": parting_quality.get("planarity", "Multi-planar"),
+            "elevation_variance": parting_quality.get("elevation_variance", 0.0),
+            "flash_risk": parting_quality.get("flash_risk", "Low"),
+            "summary": parting_quality.get("summary", "")
+        }
+    else:
+        loop_pts = [[round(float(p[0]), 3), round(float(p[1]), 3), round(float(p[2]), 3)] for p in parting_line_loop]
+        parting_line = {
+            "loop_points": loop_pts,
+            "is_closed": parting_quality.get("is_closed", True),
+            "point_count": len(loop_pts),
+            "planarity": parting_quality.get("planarity", "Planar 2D parting line"),
+            "elevation_variance": parting_quality.get("elevation_variance", 0.0),
+            "flash_risk": parting_quality.get("flash_risk", "Low"),
+            "summary": parting_quality.get("summary", "")
+        }
 
     # 6. Mold Assembly
     stock_dims = mold_split_data.get("stock_block_dimensions", {})

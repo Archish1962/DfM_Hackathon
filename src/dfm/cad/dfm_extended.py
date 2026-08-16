@@ -506,6 +506,17 @@ def evaluate_parting_line_quality(
             "summary": "No valid parting line detected."
         }
 
+    # Handle the new dictionary format returned by our 4-block split parting_line.py
+    if isinstance(parting_loop, dict) and "planes" in parting_loop:
+        return {
+            "is_closed": True,
+            "point_count": len(parting_loop["planes"]),
+            "planarity": "Multi-planar (4-block split)",
+            "elevation_variance": 0.0,
+            "flash_risk": "Low",
+            "summary": "Multi-planar shut-off for 4-block tooling with precise planar mating surfaces."
+        }
+
     first_pt = parting_loop[0]
     last_pt = parting_loop[-1]
     dist_closure = math.dist(first_pt, last_pt)

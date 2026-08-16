@@ -11,7 +11,9 @@ def evaluate_part(geometry_findings: Dict[str, Any], material_name: str) -> Dict
     graded_findings = {
         "material": profile.name,
         "issues": [],
-        "pass_fail_summary": {"pass": 0, "warning": 0, "fail": 0}
+        "pass_fail_summary": {"pass": 0, "warning": 0, "fail": 0},
+        "parting_line": geometry_findings.get("parting_line", {}),
+        "side_actions": geometry_findings.get("side_actions", [])
     }
     
     # Evaluate drafts

@@ -297,7 +297,7 @@ function App() {
               className={`control-btn ${viewMode === 'parting' ? 'active' : ''}`}
               onClick={() => setViewMode('parting')}
             >
-              Parting Lines
+              Parting Planes
             </button>
           </div>
         )}

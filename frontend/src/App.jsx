@@ -147,10 +147,58 @@ function App() {
               </button>
             </div>
 
+            {findings.part_summary && (
+              <div className="card">
+                <h3 style={{ marginBottom: '16px' }}>Part Summary & Dimensions</h3>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', fontSize: '13px' }}>
+                  <div style={{ padding: '8px', background: 'rgba(255,255,255,0.05)', borderRadius: '6px' }}>
+                    <div style={{ color: 'var(--text-secondary)', marginBottom: '4px' }}>Dimensions (X&times;Y&times;Z)</div>
+                    <div>{findings.part_summary.bounding_box.xlen} &times; {findings.part_summary.bounding_box.ylen} &times; {findings.part_summary.bounding_box.zlen} mm</div>
+                  </div>
+                  <div style={{ padding: '8px', background: 'rgba(255,255,255,0.05)', borderRadius: '6px' }}>
+                    <div style={{ color: 'var(--text-secondary)', marginBottom: '4px' }}>Volume</div>
+                    <div>{findings.part_summary.volume} mm³</div>
+                  </div>
+                  <div style={{ padding: '8px', background: 'rgba(255,255,255,0.05)', borderRadius: '6px' }}>
+                    <div style={{ color: 'var(--text-secondary)', marginBottom: '4px' }}>Surface Area</div>
+                    <div>{findings.part_summary.surface_area} mm²</div>
+                  </div>
+                  <div style={{ padding: '8px', background: 'rgba(255,255,255,0.05)', borderRadius: '6px' }}>
+                    <div style={{ color: 'var(--text-secondary)', marginBottom: '4px' }}>Faces / Edges</div>
+                    <div>{findings.part_summary.faces} / {findings.part_summary.edges}</div>
+                  </div>
+                </div>
+              </div>
+            )}
+
             <div className="card">
               <h3>Executive Summary</h3>
               <div className="executive-summary">{findings.executive_summary}</div>
             </div>
+
+            {findings.draft_analysis && findings.draft_analysis.summary && (
+              <div className="card">
+                <h3 style={{ marginBottom: '16px' }}>Draft Analysis Statistics</h3>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', fontSize: '13px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '10px', background: 'rgba(16, 185, 129, 0.15)', borderRadius: '6px' }}>
+                    <span>Pass (&ge; {findings.draft_analysis.threshold_used}&deg;)</span>
+                    <strong style={{ color: 'var(--success)' }}>{findings.draft_analysis.summary.PASS}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '10px', background: 'rgba(245, 158, 11, 0.15)', borderRadius: '6px' }}>
+                    <span>Low Draft</span>
+                    <strong style={{ color: 'var(--warning)' }}>{findings.draft_analysis.summary.LOW_DRAFT}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '10px', background: 'rgba(239, 68, 68, 0.15)', borderRadius: '6px' }}>
+                    <span>Zero Draft</span>
+                    <strong style={{ color: 'var(--danger)' }}>{findings.draft_analysis.summary.ZERO_DRAFT}</strong>
+                  </div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', padding: '10px', background: 'rgba(220, 38, 38, 0.2)', borderRadius: '6px' }}>
+                    <span>Negative (Undercut)</span>
+                    <strong style={{ color: 'var(--danger)' }}>{findings.draft_analysis.summary.NEGATIVE_DRAFT}</strong>
+                  </div>
+                </div>
+              </div>
+            )}
 
             <div className="card">
               <h3>

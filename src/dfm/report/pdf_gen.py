@@ -347,13 +347,13 @@ def generate_pdf_report(findings: Dict[str, Any], output_path: str):
                 Paragraph("Candidate Axis", cell_head_style),
                 Paragraph("Undercut Faces", cell_head_style),
                 Paragraph("Zero Draft Faces", cell_head_style),
-                Paragraph("Recommendation", cell_head_style)
+                Paragraph("Selection", cell_head_style)
             ]
         ]
         for s in scores:
             axis_t = tuple(s.get("axis", (0, 0, 0)))
             is_best = (axis_t == tuple(pvec))
-            tag = "<b>RECOMMENDED</b>" if is_best else "Alternative"
+            tag = "<b>SELECTED</b>" if is_best else "Alternative"
             score_rows.append([
                 Paragraph(f"({axis_t[0]:+.0f}, {axis_t[1]:+.0f}, {axis_t[2]:+.0f})", cell_bold_style if is_best else cell_style),
                 Paragraph(str(s.get("undercuts", 0)), cell_style),

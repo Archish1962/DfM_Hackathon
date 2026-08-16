@@ -30,6 +30,7 @@ function App() {
   const startAnalysis = async () => {
     if (!file) return;
     setStatus("uploading");
+    setFindings(null);
 
     const formData = new FormData();
     formData.append("file", file);
@@ -83,9 +84,8 @@ function App() {
           <p className="subtitle">Automated Design for Manufacturing analysis for injection-molded plastics.</p>
         </div>
 
-        {!findings && (
-          <>
-            <div
+        <div className="control-form" style={{ marginBottom: findings ? '24px' : '0' }}>
+          <div
               className="upload-zone"
               onClick={() => fileInputRef.current?.click()}
             >
@@ -125,9 +125,8 @@ function App() {
               ) : (
                 "Run DfM Analysis"
               )}
-            </button>
-          </>
-        )}
+          </button>
+        </div>
 
         {findings && (
           <div className="results-section">
